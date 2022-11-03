@@ -1,0 +1,21 @@
+name: mlver3  # 仮想環境名
+channels: # リポジトリ名
+  - conda-forge
+dependencies:
+  - python=3.7   # Pythonのバージョン
+  - numpy=1.21.6
+  - pandas=1.3.5
+  - scikit-learn==0.20.3
+  - matplotlib==3.0.3
+  - tensorflow==1.14.0
+  - keras==2.2.4
+  - seaborn==0.9
+  - python-graphviz==0.11
+  - pydotplus==2.0.2
+  - pillow==5.4.1
+  - jupyter
+  - pip=22.2.2
+  - pip:
+    - h5py==2.10.0
+    - protobuf==3.19.0
+
